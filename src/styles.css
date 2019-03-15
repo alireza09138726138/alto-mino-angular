@@ -1,0 +1,690 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    margin: 0;
+    background-color: #fff;
+  }
+  
+  /* nav */
+  .navbar{
+    background-color: #ffffff !important;
+    height: 76px;
+    padding: 4px 0;
+    transition: all 0.2s linear;
+  }
+  
+  
+  .navbar ul li{
+    padding: 10px 0px;
+  }
+  
+  .navbar ul li a {
+   transition: ease-in-out all 0.5s;
+   font-size: smaller;
+   position: relative;
+   display: inline-block;
+   color: #2e2d2d !important;
+   text-transform: uppercase;
+   line-height: 76px;
+   padding: 0 22px;
+  }
+  /* style hover for a of nav */
+  
+  .navbar ul li a::before,.navbar ul li a::after{
+    content:"";
+    opacity: .2;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #201a1a;
+  }
+  
+  .navbar ul li a:hover::before, .navbar ul li a:hover::after{
+    width: 100%;
+  }
+  
+  .navbar ul li a:hover{
+      background-color: aquamarine;
+  }
+  
+  
+  
+  /* logo of nav */
+  .navbar .media img {
+    position: relative;
+    left: 0;
+    
+  }
+  
+  .media-min {
+    display: none;
+  }
+  .h55 {
+        text-transform: uppercase;
+        font-weight: 1000;
+        font-size: x-large;
+        margin: auto;
+  }
+  
+  
+  /* btn of menu download */
+  .butn {
+    opacity: .7;
+    background-color: rgb(105, 13, 224);
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: smaller;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    position: relative;
+    }
+  
+    /* btn of menu download inside backgroun img */
+  .but {
+    opacity: .7;
+    background-color: rgb(105, 13, 224);
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: smaller;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    position: relative;
+    box-shadow: 0 25px 32px -11px rgba(0, 0, 0, 0.3);
+    }
+  
+    .but:hover {
+      opacity: .9;
+      transition: all 0.2s linear;
+    }
+  
+    hr.style1{
+      border: 2px solid rgb(105, 13, 224);
+      width: 2%;
+      opacity: .8;
+    }
+  
+    .color {
+      color: rgb(64, 64, 65);
+      font-weight: 100;
+      
+    }
+  .collapsee {
+    display: none;
+  }
+    
+  
+    /* style for hover of buton nav */
+    
+     .butn::before, .butn::after{
+      content:"";
+      opacity: .5;
+      width: 0;
+      height: 100%;
+      position: absolute;
+      transition: all 0.2s linear;
+      background: #ffffff;
+       
+    }
+  
+    .butn:hover::before, .butn:hover::after{
+      width: 100%;
+      
+    }
+    .butn:hover span::before, .butn:hover span::after{
+      height: 100%;
+      
+    }
+   
+    
+    
+    /*----- button 6 -----*/
+    /*----- button 6 -----*/
+  .btn-6::before{
+  left: 50%;
+  top: 0;
+  transition-duration: 0.4s;
+  }
+  .btn-6::after{
+  left: 50%;
+  bottom: 0;
+  transition-duration: 0.4s;
+  }
+  .btn-6 span::before{
+  left: 0;
+  top: 50%;
+  transition-duration: 0.4s;
+  }
+  .btn-6 span::after{
+  right: 0;
+  top: 50%;
+  transition-duration: 0.4s;
+  }
+  .btn-6:hover::before, .btn-6:hover::after{
+  left: 0;
+  }
+  .btn-6:hover span::before, .btn-6:hover span::after{
+  top: 0;
+  }
+    
+  /* end logo of nav */
+  
+  
+  .iconn{
+    display: none;
+  }
+  .searchh {
+    display: none;
+  }
+  
+  
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* end icon of nav */
+  
+  
+  
+  
+  
+  .wrapper .cover {
+    position: relative;
+    background-image: url("img/f72c29a1-9e46-493e-864b-96a2fcf69dde-sararoundup_jan.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  
+  
+  .wrapper .cover .container {
+    width: 50%;
+  }
+  .wrapper .cover .inner {
+   
+    position: relative;
+    left: 37%;
+    transform: translateY(134%);
+    color: #fff;
+  }
+  .wrapper .cover .inner h1 {
+    font-weight: 300;
+  }
+  
+  
+  .wrapper .cover .inner p {
+    font-weight: 400;
+  }
+  
+  .my {
+    position: relative;
+    top: 30px;
+  }
+  
+  
+  
+  /* all assign for scrolltop nav in css */
+  .navbarr{
+    background-color: #ffffff !important;
+    opacity: .6;
+    padding: 0 0;
+    transition: all 0.2s linear;
+  }
+  
+      .menu{
+        height: 10px;
+        width: 38px;
+       position: relative;
+       top:4px;
+       
+      }
+      .h5 {
+        text-transform: uppercase;
+        font-weight: 1000;
+        font-size: smaller;
+        margin: auto;
+        position: relative;
+        top:4px;
+      }
+  
+    .h-up {
+      text-transform: uppercase;
+      font-weight: 1000;
+      font-size: x-large;
+      margin: auto;
+      position: relative;
+        
+    }  
+      
+    .butnn {
+        display: none;
+    }
+  
+  
+    /* start content */
+
+    .image {
+        content: url("img/iconfinder_ic_play_circle_filled_white_48px_3669295.svg");
+        width:12% ;
+        height:12%;
+    }
+  
+    .image-1 {
+        content: url("img/iconfinder_87-protection_4243333.png");
+        width:12% ;
+        height:12%;
+    }
+
+    .image-2 {
+        content: url("img/iconfinder_12-sent_4243258.png");
+        width:12% ;
+        height:12%;
+    }
+
+    .image-3 {
+        content: url("img/iconfinder_71-folder_4243317.png");
+        width:12% ;
+        height:12%;
+    }
+
+    .image-4 {
+        content: url("img/iconfinder_67-menu_4243313.png");
+        width:12% ;
+        height:12%;
+    }
+
+
+    .image-5 {
+        content: url("img/iconfinder_13-chat_4243259.png");
+        width:12% ;
+        height:12%;
+    }
+
+    .image-6 {
+        content: url("img/iconfinder_57-light_4243305.png");
+        width:12% ;
+        height:12%;
+    }
+
+    .image-7 {
+        content: url("img/iconfinder_Android_367617.png");
+        width:100% ;
+        height:100%;
+    }
+/* apple */
+    .image-8 {
+        content: url("img/iconfinder_Apple_367618.png");
+        width:100% ;
+        height:100%;
+    }
+
+    .image-9 {
+        content: url("img/iconfinder_Windows_367616.png");
+        width:100% ;
+        height:100%;
+    }
+
+    .image-10 {
+        content: url("img/ian-dooley-347962-1240x826.jpg");
+        width:10% ;
+        height:10%;
+    }
+
+    .ima-11 {
+        content: url("img/ian-dooley-347962-1240x826.jpg");
+        width:10% ;
+        height:10%;
+    }
+
+    .cover1 {
+      position: relative;
+      background-image: url("img/1137802_ou_pp.jpg");
+      background-size: cover;
+      background-attachment: center;
+      height: 500px;
+      box-shadow: 0 25px 32px -11px rgba(0, 0, 0, 0.3);
+    }
+  
+    .cardd h1 {
+      color: rgb(61, 60, 60);
+    }
+  
+    .cardd p {
+      color: rgb(88, 86, 86);
+    }
+  
+    hr.style2{
+      border: 2px solid rgb(105, 13, 224);
+      width: 6%;
+      opacity: .8;
+      position: absolute;
+      
+    }
+  
+    .cardd i {
+      font-size:large;
+      color:#fff;
+      position: relative;
+      top:1.3px;
+    }
+  
+    .cover2 {
+      position: relative;
+      background-image: url("img/1137802_fr_pp.jpg");
+      background-size: cover;
+      background-attachment: center;
+      height: 500px;
+      
+      box-shadow: 0 25px 32px -11px rgba(0, 0, 0, 0.3);
+    }
+  
+  
+    .cover3 {
+      position: relative;
+      background-image: url("img/japanese-fashion-trends-231848-1502226837022-main.700x0c.jpg");
+      background-size: cover;
+      background-attachment: center;
+      height: 500px;
+      box-shadow: 0 25px 32px -11px rgba(0, 0, 0, 0.3);
+    }
+  
+  
+    .wrapper .cover4 {
+      position: relative;
+      background-image: url("img/ian-dooley-347962-1240x826.jpg");
+      background-size: cover;
+      /* background-attachment: ; */
+      height: 700px;
+      box-shadow: inset 0 0 0 10000px rgba(20, 2, 179, 0.6);
+    }
+  
+    .cover4 .row {
+      margin: 0 0;
+    }
+  
+    .wrapper .cover4 h1 {
+      font-family: 'Cabin';
+      color: #fff;
+      
+    }
+  
+    .topp {
+      position: relative;
+      top:11%;
+    }
+  
+   .pad-b {
+    padding-bottom:4em
+   }
+  
+  
+   .card-body p {
+      font-size:small;
+      color:#6c757d !important;
+   }
+  
+   .carddd {
+     border:none;
+   }
+  
+   .box-shado {
+    box-shadow: inset -5px -83px 62px -30px rgba(0,0,0,0.31);
+   }
+  
+   .shadow {
+    box-shadow: -8px 18px 63px -16px rgba(0,0,0,0.31);
+    width: 90%;
+  }
+  
+  .imgf {
+    background-color: #43c407;
+    opacity: .7;
+  }
+  
+  .shadow .Windows {
+    background-color: #6f82ee;
+    opacity: .7;
+  }
+  
+  .shadow .apple {
+    background-color: #b3b3b9;
+    opacity: .7;
+  }
+  
+  .pad-card {
+    padding: 15px 0;
+    border: none;
+  }
+  
+  .card-img {
+    width: 65%;
+  }
+  
+  .bordr {
+    padding:5px 0;
+    background-color: rgb(119, 81, 223);
+    width: 60%;
+    opacity: .9;
+  }
+  
+  
+  
+  /* Footer */
+  .card-bor {
+    border:none;
+    
+  }
+  
+  .form-inline {
+    display: inline-flex;
+  }
+  
+  .card-bor h4 {
+    font-size: large;
+  }
+  
+  .card-bor .form-control, .card-bor .btn {
+    border-radius: 1.3rem;
+  }
+  
+  .card-bor input[type="email"] {
+    width: 100%;
+    border: 1px solid rgb(105, 13, 224);
+    font-size: small;
+  }
+  .card-bor .btn {
+    font-size: small;
+    padding: 8px 28px;
+    opacity: .7;
+    background-color: rgb(105, 13, 224);
+    border: 1px solid rgb(105, 13, 224); 
+  }
+  
+  .card-footer img {
+    box-shadow: 0px 0px 1px 12px rgba(160, 157, 157, 0.75);
+  }
+  
+  .card {
+    border:none;
+  }
+  
+  .bg-footer-color {
+    background-color: rgb(105, 13, 224);
+  }
+  
+  .bg-footer-color h5 {
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  
+  
+  .p-color h6 {
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  
+  
+  .bordrr {
+    padding:1px 0;
+    background-color: #fff;
+    width: 70%;
+    opacity: .3;
+  }
+  
+  .font-sz {
+    font-size: small;
+    color: #fff;
+  }
+  
+  .nav-color a {
+    color: #fff;
+    font-size: small;
+  }
+  .colr-font {
+    color: #fff;
+    font-size: small;
+    position: relative;
+    right: 29px;
+  }
+  
+  .form-inline a {
+   
+    padding: 4px 6px;
+    color: #fff;
+    font-size: smaller;
+    }
+  
+  /* @media width 991px */  
+  
+  @media(max-width:991px) {
+  
+    /* nav */
+    .navbar{
+      background-color: #ffffff !important;
+      text-align: center; 
+      z-index: 1000;
+      
+    }
+    
+  /* .navbar .container {
+    flex-wrap: initial;
+  } */
+  
+    .navbar ul{
+      background-color: #ffffff !important;
+      position: relative;
+      
+    }
+  
+    .navbar ul li {
+      padding: 0px 0px;
+      width: 100%;
+    }
+    
+    .navbar ul li a{
+      color: rgb(156, 156, 163) !important;
+      text-align: center !important;
+      width: 100%;
+    }
+    
+    .navbar ul li a:hover {
+      width: 100%;
+    }
+    
+    .navbar ul {
+      width: 100%;
+    }
+    .nav-link {
+      padding: 0 22px;
+      line-height: 30px;
+      transition: ease-in-out all 0.3s;
+    }
+  
+    /*  */
+    
+    .d-inline{
+      display: inline;
+    }
+    
+    .img, .media h5{
+      display: none;
+    }
+  
+    .media-min {
+      display: flex;
+      align-items: center;
+    }
+  
+  /* end logo */
+  
+    .bg-color {
+      background-color: #ffffff;
+    }
+  
+    
+  .m-b {
+    padding: 10px 10px;
+   }
+  
+   .wrapper .cover {
+    background-position: center;
+  }
+  
+   .wrapper .cover .inner {
+    position: relative;
+    
+    transform: translateY(70%);
+    color: #fff;
+   } 
+  
+   .wrapper .cover .inner h1 {
+    font-size: xx-large;
+   }
+  
+   .navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+    
+  .cover1, .cover3, .cover2, .cover4 {
+    background-position: center;
+  }
+  
+  .carddd img {
+    height: 50%;
+    width: 50%;
+  }
+  
+  .colr-font {
+    color: #fff;
+    font-size: small;
+    position: relative;
+    right: 0px;
+  }
+   
+  }
+  
+  
+  
